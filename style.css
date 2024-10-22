@@ -55,8 +55,6 @@ a:hover {
 }
 
 img {
-    height: 30px;
-    width: 30px;
 }
 
 .txt-logo {
@@ -135,7 +133,7 @@ img {
 .quote {
     margin: auto;
     height: auto;
-    width: 1263px;
+    width: 100%;
 }
 
 .text1 {
@@ -158,6 +156,7 @@ input{
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    padding: 5px;
     width: 70%;
     font-size: x-large;
     margin-bottom: 50px;
@@ -176,10 +175,15 @@ input{
     margin-left: 56%;
     border: none;
     background-color: rgb(54, 25, 33);
-    color: #fff;
+    color: white;
     width: 110px;
     height: 36px;
     font-size: 24px;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
 }
 
 .foot {
